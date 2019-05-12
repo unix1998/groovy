@@ -1,0 +1,8 @@
+import java.io.File 
+class Example { 
+   static void main(String[] args) { 
+      new File("./xf1").eachLine {  
+         line -> println "line : $line"; 
+      } 
+   } 
+}

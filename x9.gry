@@ -1,0 +1,6 @@
+class Example { 
+   static void main(String[] args) { 
+      File file = new File("./xf1") 
+      println file.text 
+   } 
+}
