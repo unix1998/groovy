@@ -1,0 +1,6 @@
+class Example {
+   static void main(String[] args) {
+      def clos1 = {println "Hello World"};
+      clos1.call();
+   } 
+}
